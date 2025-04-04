@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing-container: 1240px;
+
+  --font-poppins: "Poppins", "sans-serif";
+
+  --color-gray: #777777;
+  --color-dark: #444;
+  --color-black: #212529;
+  --color-primary: #3467EF;
+
+  --spacing-26: 26px;
+  --spacing--05: -0.5px;
+  
+}
+
+body
+{
+  @apply font-poppins
+}
+
+h6
+{
+  @apply text-sm leading-26 uppercase 
+}
+
+h2
+{
+  @apply text-[25.2px] font-bold leading-[24px] tracking-[-1.26px] capitalize 
+}
+
+.container 
+{
+  @apply mx-auto w-container 
+}
+
+.navLink 
+{
+  @apply text-dark text-sm font-semibold tracking-[-0.5px] leading-6 px-3.5 hover:text-primary cursor-pointer
+}
+
+.btnPrime 
+{
+  @apply tracking-[-0.5px] leading-6 hover:bg-[#5782f2] uppercase transition-all 
+}
+
+.btnSecond
+{
+  @apply tracking-[-0.5px] text-sm font-semibold leading-6 bg-transparent text-white hover:text-black hover:bg-white uppercase border-2 hover:border-white transition-all duration-150 ease-in
+}
+
+
+.para 
+{
+  @apply leading-26 text-sm 
+}
