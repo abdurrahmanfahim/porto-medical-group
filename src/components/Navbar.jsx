@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full sticky">
+      <div className="w-full sticky top-0 z-50 shadow-2xs bg-white ">
         <nav className="container py-26">
           <div className="wrap flex justify-between">
           <div className="logo cursor-pointer">

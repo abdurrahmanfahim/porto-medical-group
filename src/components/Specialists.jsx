@@ -10,7 +10,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
 const Specialists = () => {
   return (
     <>
-      <section className="relative z-50 w-full bg-white pt-[70px]">
+      <section className="relative z-40 w-full bg-white pt-[70px]">
         <div className="container ">
           <h6>our Specialists</h6>
           <h2>meet our Doctors</h2>

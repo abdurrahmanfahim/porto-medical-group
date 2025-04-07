@@ -13,7 +13,7 @@ const Blog = () => {
  
   return (
     <>
-      <section className="w-full bg-white relative z-50 pb-24">
+      <section className="w-full bg-white relative z-40 pb-24">
         <div className="container">
           <div className="headings text-center">
             <h6>our blog</h6>

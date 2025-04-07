@@ -8,7 +8,7 @@ const Testimonial = () => {
       <section className="w-full bg-white pt-[70px]">
         <div className="bg-[url(./assets/img/demos/medical-2/others/bg-2.png)] bg-contain bg-no-repeat bg-right w-full h-[438px]">
           <div className="container flex ">
-            <div className="w-2/1 z-50 px-3 ">
+            <div className="w-1/2 z-40 px-3 ">
               <h6>What They Say</h6>
               <h2>Patients Reviews</h2>
               <p className="para text-gray mt-2">
@@ -35,7 +35,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <div className="w-2/1 h-[438px] relative">
+            <div className="w-1/2 h-[438px] relative">
               <div className="coverBox absolute bg-white size-[438px] top-[35%] left-[-61%] rotate-[75deg] z-0"></div>
               <div className="coverBox absolute bg-white size-[438px] top-[-35%] left-[-61%] rotate-[-75deg] z-0"></div>
             </div>

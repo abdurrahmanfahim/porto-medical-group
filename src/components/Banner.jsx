@@ -31,7 +31,7 @@ const Banner = () => {
               </a>
             </div>
             {/* card start */}
-            <div className="cards container flex justify-between absolute -bottom-83 z-50">
+            <div className="cards container flex justify-between absolute -bottom-83 z-40">
             {healthcare_centers.map((card) => {
                 return (
                   <Card

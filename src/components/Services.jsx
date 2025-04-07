@@ -6,7 +6,7 @@ const Services = () => {
   const medical_departments = cardData.medical_departments;
   return (
     <>
-      <section className="w-full pt-[72px] bg-[url(https://www.okler.net/previews/porto/12.1.0/img/demos/medical-2/bg/bg-3.png)] text-white relative z-50">
+      <section className="w-full pt-[72px] bg-[url(https://www.okler.net/previews/porto/12.1.0/img/demos/medical-2/bg/bg-3.png)] text-white relative z-40">
         <div className="container ">
           <div className="heading px-3">
             <h6>Departments</h6>

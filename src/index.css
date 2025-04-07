@@ -15,6 +15,11 @@
   
 }
 
+.container 
+{
+  @apply mx-auto w-container 
+}
+
 body
 {
   @apply font-poppins
@@ -28,11 +33,6 @@ h6
 h2
 {
   @apply text-[25.2px] font-bold leading-[24px] tracking-[-1.26px] capitalize 
-}
-
-.container 
-{
-  @apply mx-auto w-container 
 }
 
 .navLink 

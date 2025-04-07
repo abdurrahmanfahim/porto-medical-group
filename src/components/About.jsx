@@ -11,7 +11,7 @@ const About = () => {
               <div className="coverBox absolute bg-white size-[655px] top-[-35%] right-[-90%] rotate-[75deg] z-0"></div>
               <div className="coverBox absolute bg-white size-[655px] top-[35%] right-[-90%] rotate-[-75deg] z-0"></div>
             </div>
-            <div className="w-2/1 z-50 pt-12 pb-[68px]">
+            <div className="w-2/1 z-40 pt-12 pb-[68px]">
               <h6 className="text-gray">Who We Are</h6>
               <h2>More About Porto Medical</h2>
               <p className="text-gray text-sm font-semibold leading-26 mt-2 mb-5 ">
